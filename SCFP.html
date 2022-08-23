@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All about penguins 🐧</title>
+    <style>
+      body {
+        background-color: #f6f5f5;
+      }
+      h1 {
+        display: block;
+        text-align: center;
+        font-size: 80px;
+        font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+        color: #0f3057;
+        padding: 30px 30px;
+        border: 3px solid #0f3057;
+        border-radius: 15px;
+      }
+      img {
+        display: block;
+        margin: 0px auto;
+        max-width: 100%;
+        border-radius: 20px;
+      }
+      h2 {
+        font-size: 40px;
+        text-align: center;
+        font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+        color: #0f3057;
+      }
+      span {
+        color: #709fb0;
+      }
+      p {
+        font-size: 27px;
+        font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+        color: #0f3057;
+        line-height: 1.5;
+        text-align: left;
+      }
+      a {
+        font-size: 25px;
+        font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        color: gray;
+        margin-top: 30px;
+        font-weight: 500;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: #0f3057;
+        cursor: pointer;
+      }
+      button {
+        display: block;
+        font-size: 45px;
+        font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+        margin: 60px auto;
+        padding: 30px 40px;
+        box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.2);
+        border-radius: 90px;
+        border: 0px;
+        transition: all 150ms ease-in-out;
+        color: #0f3057;
+        background-color: #cde5f7;
+        border: 3px solid #0f3057;
+      }
+      button:hover {
+        color: #d3e0ea;
+        background-color: #0f3057;
+        cursor: pointer;
+      }
+      div {
+        text-align: center;
+        font-size: 25px;
+        font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+        font-weight: lighter;
+        color: #aaaaaa;
+        padding-top: 40px;
+        margin: 40px auto;
+      }
+      .container {
+        display: block;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        max-width: 900px;
+        margin: 70px auto;
+        padding: 30px 50px;
+        background: linear-gradient(
+          109.6deg,
+          rgb(204, 228, 247) 11.2%,
+          rgb(237, 246, 250) 100.2%
+        );
+        border-radius: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Penguins</h1>
+      <h2>
+        And why they're the <span><em>coolest</em></span>
+        <br />
+      </h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/037/920/original/baby-penguins.jpeg?1655748324"
+        alt="A group of penguins"
+      />
+      <br />
+      <p>
+        <strong>Penguins</strong> are a group of aquatic flightless birds. They
+        live almost exclusively in the Southern Hemisphere: only one species,
+        the Galápagos penguin, is found north of the Equator. Highly adapted for
+        life in the water, penguins have countershaded dark and white plumage
+        and flippers for swimming. Most penguins feed on krill, fish, squid and
+        other forms of sea life which they catch with their bills and swallow it
+        whole while swimming. A penguin has a spiny tongue and powerful jaws to
+        grip slippery prey. They spend roughly half of their lives on land and
+        the other half in the sea.
+      </p>
+      <br />
+      <a href="https://en.wikipedia.org/wiki/Penguin" target="_blank"
+        >📖 Learn More</a
+      >
+      <button class="button-frosty">🧊 Feeling frosty?</button>
+      <hr />
+      <div>Developed by Lysandra Webba Jorge</div>
+    </div>
+    <script>
+      function feelingFrosty() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+        let emoji = prompt("What's your favorite emoji?");
+        if (name.length > 0 && email.length > 0) {
+          alert(
+            "Thanks " +
+              name +
+              "! We'll be in touch. In the meantime, stay frosty! " +
+              emoji
+          );
+        } else {
+          alert("Thanks for the visit! In the meantime, stay frosty! 😎");
+        }
+      }
+
+      let button = document.querySelector(".button-frosty");
+      button.addEventListener("click", feelingFrosty);
+    </script>
+  </body>
+</html>
