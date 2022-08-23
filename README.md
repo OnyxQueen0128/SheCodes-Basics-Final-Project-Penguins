@@ -2,7 +2,9 @@
 
 Hey stranger 👋🏾!
 
-Thanks for checking out my very first ever project.
+Thanks for checking out my very first ever project:
+
+https://lwj-feelingfrosty.netlify.app/
 
 This was the final project I submited at the end of my first coding bootcamp.
 The focus was all about getting comfy with the basics coding and developping some must have habits.
