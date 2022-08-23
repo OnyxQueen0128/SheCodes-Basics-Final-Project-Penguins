@@ -1,10 +1,13 @@
-# SheCodes Basics Final Project: Penguins🐧!
+# SheCodes Basics Final Project: Penguins 🐧!
 
-Hey stranger!
+Hey stranger 👋🏾!
 
-Thanks for checking out my very first ever project. This was the final project I submited at the end of my first coding bootcamp.
-The focus was very much more on getting comfy with baby steps in coding and developping some must have habits.
+Thanks for checking out my very first ever project.
 
-~ I simply chose penguins because at the time I was living in England and it was FREEZING! They felt like my spirit animals at the time ~
+This was the final project I submited at the end of my first coding bootcamp.
+The focus was all about getting comfy with the basics coding and developping some must have habits.
 
-Well... Stay frosty❄️!
+~ I simply chose penguins because at the time I was living in England and it was FREEZING!
+They felt like my spirit animals at the time 🥲 ~
+
+Well... Stay frosty ❄️!
